@@ -1,0 +1,56 @@
+@media screen and (max-width: 1001px) {
+  .stories {
+    flex-wrap: wrap;
+  }
+  .story {
+    width: 100%;
+    margin-top: 10%;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .story{
+    width: 30%;
+  }
+
+}
+.stories-component {
+  padding-top: 2%;
+  padding-bottom: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
+  background-color: #f8f9fa;
+}
+.stories {
+  display: flex;
+}
+
+.stories-title {
+  padding-top: 5%;
+  font-size: 2rem;
+  padding-bottom: 5%;
+}
+.story {
+  margin-right: 3%;
+  margin-left: 3%;
+}
+
+.user-img {
+  border-radius: 50%;
+  max-width: 60%;
+  height: auto;
+}
+
+.user-name {
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.user-testimony {
+  font-size: 0.9rem;
+  font-weight: 200;
+}
+p {
+  margin-block-start: 0.5rem;
+  margin-block-end: 0.5rem;
+}

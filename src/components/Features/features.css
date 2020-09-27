@@ -1,0 +1,55 @@
+@media screen and (max-width: 1000px) {
+  .features {
+    flex-wrap: wrap;
+  }
+  .feature {
+    width: 100%;
+  }
+  .icon {
+    padding-top: 10%;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .feature {
+    width: 30%;
+  }
+
+  .icon {
+    padding: 5%;
+  }
+}
+
+.features {
+  padding-top: 8%;
+  display: flex;
+  padding-left:  10%;
+  padding-right: 10%;
+  padding-bottom: 8%;
+  background-color: #f8f9fa;
+}
+
+.feature {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.theme {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.description {
+  font-size: 1.1rem;
+  font-weight: 250;
+}
+
+.icon {
+  color: #007bff;
+  font-size: 4.5rem;
+  transition: .25s ease-in-out;
+}
+
+.icon:hover {
+  transform:scale(1.2);
+}
